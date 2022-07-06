@@ -1,4 +1,4 @@
-import NewStudents  from './AddStudent';
+import NewStudents  from './addStudent';
 import StudentEdit from './Edit';
 import Students from './Student';
 
@@ -7,7 +7,7 @@ import Students from './Student';
 
 const Reducer = (state="",action) =>{
     switch(action){
-     case NewStudents : return <AddStudent/>
+     case NewStudents : return <addStudent/>
      case StudentEdit : return <Edit/>
      default : return <Students/>
     }
